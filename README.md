@@ -2,12 +2,15 @@
 
 Simple beginners guide
 
-## Start
+## Top
+Topbar and Workspaces
+![blendertop](images/blendertop.png)
 
-- one
-- two
-- three
-
+## Areas
+### Areas are areas... where you can view Editors
 ![areas](images/areas.png)
-Description
+### Available Editors
 ![areas2](images/areas2.png)
+
+## More info:
+[Blender documentation](https://docs.blender.org/manual/en/latest/index.html)
