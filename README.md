@@ -18,14 +18,21 @@ You can even save the layout in the [Workspaces](#Top), but that comes later
 
 ![blendergif](images/blendergif.gif)
 
-## Move and Scale
+## Move (G) and Scale (S)
 ![gif](images/movescale.gif)
+
+## Adding Objects
+![gif](images/adding.gif)
+
+## Switch Modes (TAB) and Select All (Shift+A)
+![gif](images/tabandshifta.gif)
+
+## In edit mode you can select by verticies, edges or faces
+![gif](images/editmode.gif)
 
 ## Useful things
 ![gif](images/useful.gif)
 
-## Adding Objects
-![gif](images/adding.gif)
 
 ## More info:
 [Blender documentation](https://docs.blender.org/manual/en/latest/index.html)
