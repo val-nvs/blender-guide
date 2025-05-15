@@ -35,8 +35,13 @@ In edit mode you can select by vertices, edges or faces
 
 
 ## The Camera
-### This is how your final render will look like
+This is how the framing of your final render will look like
 ![gif](images/camera.gif)
+
+
+# Checkpoint
+[![video](images/thumbnail.jpg)](images/checkpoint1.mp4)
+
 
 ## Useful things
 ![gif](images/useful.gif)
