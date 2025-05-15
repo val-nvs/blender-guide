@@ -30,8 +30,13 @@ After pressing you can guide the change to one of the XYZ axis
 ![gif](images/tabandshifta.gif)
 
 ## Edit mode
-In edit mode you can select by verticies, edges or faces
+In edit mode you can select by vertices, edges or faces
 ![gif](images/editmode.gif)
+
+
+## The Camera
+### This is how your final render will look like
+![gif](images/camera.gif)
 
 ## Useful things
 ![gif](images/useful.gif)
