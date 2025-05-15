@@ -19,15 +19,18 @@ You can even save the layout in the [Workspaces](#Top), but that comes later
 ![blendergif](images/blendergif.gif)
 
 ## Move (G) and Scale (S)
+After pressing you can guide the change to one of the XYZ axis
+
 ![gif](images/movescale.gif)
 
-## Adding Objects
+## Adding Objects (Shift+A)
 ![gif](images/adding.gif)
 
-## Switch Modes (TAB) and Select All (Shift+A)
+## Switch Modes (TAB) and Select All (A)
 ![gif](images/tabandshifta.gif)
 
-## In edit mode you can select by verticies, edges or faces
+## Edit mode
+In edit mode you can select by verticies, edges or faces
 ![gif](images/editmode.gif)
 
 ## Useful things
