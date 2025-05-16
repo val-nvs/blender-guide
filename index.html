@@ -60,6 +60,64 @@
       border-radius: 4px;
       cursor: pointer;
     }
+
+
+
+
+
+
+/* Inline-capable boxes */
+.box {
+  display: inline-grid;           /* instead of grid */
+  vertical-align: middle;         /* sit inline with text */
+  border: 1px solid var(--color-border);
+  width: fit-content;
+  margin: 0 0.5em;
+  font-size: .6rem;
+}
+.box > div {
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+/* 2-left, 1-right */
+.layout-2-1 {
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.layout-2-1 .top-left   { grid-area: 1 / 1; }
+.layout-2-1 .bottom-left{ grid-area: 2 / 1; }
+.layout-2-1 .right      { grid-area: 1 / 2 / span 2 / span 1; }
+
+/* 2 items row */
+.layout-row {
+  grid-template-columns: auto auto;
+}
+
+/* 2×2 grid */
+.layout-grid2x2 {
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </style>
 </head>
 <body>
@@ -74,6 +132,9 @@
     <h2>Areas &amp; Editors</h2>
     <h3>Areas are areas... where you can view <em>Editors</em> such as the <em>3D Viewport</em> or the <em>Timeline</em></h3>
     <img src="images/areas.png" alt="Blender Areas" />
+    <span class="box layout-grid2x2">
+      <div>3D Viewport</div><div>Outliner</div>
+      <div>Timeline</div><div>Properties</div></span>
 
     <h3>Find all the Editors by pressing the icon on the top left of the Area</h3>
     <img src="images/areas2.png" alt="Blender Editors Icon" />
@@ -82,29 +143,41 @@
     <p>You can even save your new layout in the <a href="#Top">Workspaces</a>, but that comes later.</p>
     <div class="video-container"><video controls>
       <source src="images/blendergif.mp4" type="video/mp4" />error</video></div>
+    <span class="box layout-grid2x2">
+      <div>3D Viewport(s)</div><div>Outliner</div>
+      <div>Timeline*</div><div>Properties</div></span>
 
     <h2>Move the camera around (Middle Mouse / Shift+Middle Mouse)</h2>
     <img src="images/pan.gif" alt="gif" />
+    <span class="box layout-grid2x2">
+      <div>3D Viewport</div></span>
 
     <h2>Move (G) and Scale (S)</h2>
     <h3>Press it once, don't hold it.</h3>
     <p>Tip: Then press X, Y, or Z to lock the change to a certain axis.</p>
     <div class="video-container"><video controls>
       <source src="images/movescale.mp4" type="video/mp4" />error</video></div>
-
+    <span class="box layout-grid2x2">
+      <div>3D Viewport</div></span>
 
     <h2>Adding Objects (Shift+A)</h2>
     <div class="video-container"><video controls>
       <source src="images/adding.mp4" type="video/mp4" />error</video></div>
-
+    <span class="box layout-grid2x2">
+      <div>3D Viewport</div></span>
 
 
 
 
     <h1>Properties</h1>
+    <h3>Define your scene and objects</h3>
       <div class="video-container"><video controls>
         <source src="images/properties.mp4" type="video/mp4" />error</video></div>
-
+    <span class="box layout-2-1">
+        <div class="top-left">3D Viewport</div>
+        <div class="bottom-left">Outliner</div>
+        <div class="right">Properties</div>
+    </span>
 
 
 
@@ -118,14 +191,20 @@
     <h3>In Object Mode, you select whole objects.<br>And in Edit Mode you can select by vertices, edges or faces</h3>
 
 
-    <h2>Switch Modes (TAB) and Select All (A)</h2>
+    <h2>Switch Modes (TAB) and Select All (A)
+      <span class="box layout-2-1">
+        <div class="right">3D Viewport</div>
+      </span></h2>
     <p>TAB is a shortcut for switching between your current mode (Object Mode by default) and Edit Mode.</p>
     <p>Tip: Make sure to firstly pick the object(s) in Object Mode that you want to work on in Edit Mode</p>
 
     <div class="video-container"><video controls>
       <source src="images/tabandshifta.mp4" type="video/mp4" />error</video></div>
 
-    <h2>Edit mode</h2>
+    <h2>Edit mode
+      <span class="box layout-2-1">
+        <div class="right">3D Viewport</div>
+      </span></h2>
     <p>Tip: Make sure to firstly pick the object(s) in Object Mode that you want to work on in Edit Mode</p>
     <img src="images/editmode.gif" alt="Edit Mode gif" />
 
