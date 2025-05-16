@@ -8,11 +8,14 @@ Topbar and Workspaces
 ![blendertop](images/blendertop.png)
 
 ## Areas & Editors
-#### Areas are areas... where you can view *Editors* such as the *3D Viewport* or the *Timeline*
+### Areas are areas... where you can view *Editors* such as the *3D Viewport* or the *Timeline*
+
 ![areas](images/areas.png)
 
-#### Find all the Editors by pressing the icon on the top left of the Area
+### Find all the Editors by pressing the icon on the top left of the Area
+
 ![areas2](images/areas2.png)
+
 ### You can move them around, dulpicate and delete
 You can even save the layout in the [Workspaces](#Top), but that comes later
 
