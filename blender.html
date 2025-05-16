@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blender Guide</title>
+  <style>
+    /* Base colors from GitHub Dark */
+    :root {
+      --color-bg: #0d1117;
+      --color-fg: #c9d1d9;
+      --color-muted: #8b949e;
+      --color-link: #58a6ff;
+      --color-border: #30363d;
+    }
+    body {
+      margin: 0;
+      padding: 2rem;
+      background-color: var(--color-bg);
+      color: var(--color-fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+    }
+    article {
+      max-width: 800px;
+      width: 100%;
+    }
+    a { color: var(--color-link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h1, h2, h3 { margin-top: 1.5em; margin-bottom: 0.5em; font-weight: 600; line-height: 1.25; }
+    h3 { font-weight: 500; font-style: italic; }
+    p { margin: 0.5em 0 1em; }
+    ul { margin: 0 0 1em 1.25rem; }
+    pre, code {
+      background-color: #161b22;
+      border-radius: 6px;
+      font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
+    code { padding: 0.2em 0.4em; font-size: 85%; }
+    pre { padding: 1em; overflow: auto; margin-bottom: 1em; }
+    blockquote {
+      margin: 0; padding-left: 1em;
+      border-left: 0.25em solid var(--color-border);
+      color: var(--color-muted);
+    }
+    img { max-width: 100%; border-radius: 6px; margin: 0.75em 0; }
+    /* Video styling */
+    .video-container {
+      margin: 1em 0;
+      background-color: #161b22;
+      padding: 0.5em;
+      border-radius: 6px;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--color-border);
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <h1>Blender Guide</h1>
+    <p>Simple beginners guide<br>a</p>
+
+    <h2>Top</h2>
+    <p>Topbar and Workspaces</p>
+    <img src="images/blendertop.png" alt="Blender Topbar and Workspaces" />
+
+    <h2>Areas &amp; Editors</h2>
+    <h3>Areas are areas... where you can view <em>Editors</em> such as the <em>3D Viewport</em> or the <em>Timeline</em></h3>
+    <img src="images/areas.png" alt="Blender Areas" />
+
+    <h3>Find all the Editors by pressing the icon on the top left of the Area</h3>
+    <img src="images/areas2.png" alt="Blender Editors Icon" />
+
+    <h2>You can move them around, duplicate and delete.</h2>
+    <p>You can even save your new layout in the <a href="#Top">Workspaces</a>, but that comes later.</p>
+    <div class="video-container"><video controls>
+      <source src="images/blendergif.mp4" type="video/mp4" />error</video></div>
+
+    <h2>Move the camera around (Middle Mouse / Shift+Middle Mouse)</h2>
+    <img src="images/pan.gif" alt="gif" />
+
+    <h2>Move (G) and Scale (S)</h2>
+    <h3>Press it once, don't hold it.</h3>
+    <p>Tip: Then press X, Y, or Z to lock the change to a certain axis.</p>
+    <div class="video-container"><video controls>
+      <source src="images/movescale.mp4" type="video/mp4" />error</video></div>
+
+
+    <h2>Adding Objects (Shift+A)</h2>
+    <div class="video-container"><video controls>
+      <source src="images/adding.mp4" type="video/mp4" />error</video></div>
+
+    <h2>Modes of the 3D Viewport</h2>
+    <h3>In Object Mode, you select whole objects.<br>And in Edit Mode you can select by vertices, edges or faces</h3>
+
+
+    <h2>Switch Modes (TAB) and Select All (A)</h2>
+    <p>TAB is a shortcut for switching between your current mode (Object Mode by default) and Edit Mode.</p>
+    <p>Tip: Make sure to firstly pick the object(s) in Object Mode that you want to work on in Edit Mode</p>
+
+    <div class="video-container"><video controls>
+      <source src="images/tabandshifta.mp4" type="video/mp4" />error</video></div>
+
+    <h2>Edit mode</h2>
+    <p>Tip: Make sure to firstly pick the object(s) in Object Mode that you want to work on in Edit Mode</p>
+    <img src="images/editmode.gif" alt="Edit Mode gif" />
+
+    <h2>The Camera</h2>
+    <p>This is how the framing of your final render will look like</p>
+    <div class="video-container"><video controls>
+      <source src="images/camera.mp4" type="video/mp4" />error</video></div>
+
+    <h1>Exercise: Make a scene with 2 objects and a light nearby</h1>
+    <h3>Notice the Usefulness of the "Transform" Sidebar</h3>
+    <div class="video-container"><video controls>
+      <source src="images/checkpoint1.mp4" type="video/mp4" />error</video></div>
+
+    <h2>Useful things</h2>
+    <div class="video-container"><video controls>
+      <source src="images/useful.mp4" type="video/mp4" />error</video></div>
+
+    <h2>More info:</h2>
+    <p>
+      <a href="https://docs.blender.org/manual/en/latest/index.html"
+         target="_blank"
+         rel="noopener noreferrer">
+        Blender documentation
+      </a>
+    </p>
+  </article>
+</body>
+</html>

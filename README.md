@@ -17,7 +17,7 @@ Topbar and Workspaces
 ![areas2](images/areas2.png)
 
 ### You can move them around, dulpicate and delete
-You can even save the layout in the [Workspaces](#Top), but that comes later
+You can even save your new layout in the [Workspaces](#Top), but that comes later
 
 ![blendergif](images/blendergif.gif)
 
